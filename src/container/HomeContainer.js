@@ -5,7 +5,7 @@ import { addToCart } from "../service/action/action.js";
 //mapstatetoprop for adding item to cart 
 const mapStateToProps = state => ({
      //cardData:state or
-     cardData:state.cardItems.cardData
+     cardData:state.cardItems
 })
 
 const mapDispatchToProps =dispatch => ({

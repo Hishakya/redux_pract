@@ -3,13 +3,17 @@ import React from "react";
 const Home = (props) => {
     //through props we r getting add_to_cart function here from "homecontainer"
     //2nd  or 1st log output
-    console.log("props from home ",props)
+    console.log("props from home ",props.data)
     return (
         <div>
-           
+            <div>
+                {/* this is for counting item added to cart */}
+            {/* <span>{props.data.length}</span> */}
+            </div>
         <h1>Home Component</h1>
         <div className="cart-wrapper">
             <div className="img-wrapper item">
+               
                 <img src="zee5t.png" alt="zee5t"/>
             </div>
             <div className="text-wrapper item">
